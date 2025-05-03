@@ -1,0 +1,27 @@
+class A 
+{ int i;
+  void setI(int x)
+  { i=x;
+   void dispI()
+   { System.out.println("i: "+i); }
+  }
+  
+
+  class B
+  { int j;
+   void setj(int x)
+   {  j=x;
+    void dispj()
+    {System.out.println("j: "+j); }
+  }
+   
+  class DemoAB
+  {   public static void main(String []ujjwal) 
+       {     A a1  = new A();
+             B b1  = new B();
+              a1.setI(10);
+              b1.setj(20);
+               a1.dispI();
+               b1.dispj();
+        }
+  }             

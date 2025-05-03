@@ -1,0 +1,26 @@
+class MyException {
+	public static void main(String[] args) {
+	  int x=5;
+	  int y=0;
+	  int []i=new int[4];
+	  try
+	  {
+	   System.out.println("x/y: "+x/y);
+	  }
+	  catch(ArithmeticException e)
+	  {
+	    System.out.println("invalid denominator "+e);
+	  }
+	  try{
+	       System.out.println("a[8]: "+a[8]);
+	  }
+	  catch(ArrayIndexOutOfBoundsException b)
+	  {
+	        System.out.println("Out of index "+a);  
+	  }
+	  finally
+	  {
+	  System.out.println("in final block");
+	  } 
+	}
+}

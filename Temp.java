@@ -1,0 +1,17 @@
+
+
+class Temp
+{  
+  public static void main(String [] args)
+   {    A a1 = new A();
+        B b1 = new B();
+         a1.setI(10);
+         b1.setJ(20);
+          a1.dispI();
+          b1.dispJ();
+   }      
+}
+
+
+
+
